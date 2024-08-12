@@ -32,6 +32,8 @@ const LoginPage = () => {
               className="w-full p-2 border border-gray-300 rounded-md"
               required
             />
+            <div className="text-xs text-gray-500 mt-1">Hint: user</div>
+
           </div>
           <div className="mb-4">
             <label htmlFor="password" className="block text-gray-700">Password</label>
@@ -43,6 +45,7 @@ const LoginPage = () => {
               className="w-full p-2 border border-gray-300 rounded-md"
               required
             />
+            <div className="text-xs text-gray-500 mt-1">Hint: password</div>
           </div>
           <button
             type="submit"
